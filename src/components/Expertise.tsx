@@ -1,90 +1,109 @@
 import React from "react";
-import '@fortawesome/free-regular-svg-icons'
+import '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons'; // Import relevant icons
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
+    "React.js",
+    "Vue.js",
     "JavaScript",
     "HTML5",
     "CSS3",
-    "SASS",
-    "Flask",
-    "Python",
-    "SQL",
-    "PostgreSQL",
-    "Postman"
+    "Bootstrap",
+    "Java",
+    "Spring Boot",
+    "Django",
+    "Node.js",
+    "Express.js",
 ];
 
 const labelsSecond = [
     "Git",
-    "GitHub Actions",
+    "GitLab CI/CD",
     "Docker",
+    "Kubernetes",
     "AWS",
     "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "GCP",
+    "Heroku",
+    "Jenkins",
+    "Spinnaker",
 ];
 
 const labelsThird = [
+    "Python",
+    "R",
+    "Pandas",
+    "Selenium",
     "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
     "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "AWS",
+    "GCP",
+];
+
+const labelsFourth = [
+    "Apex",
+    "Salesforce",
 ];
 
 function Expertise() {
     return (
-    <div className="container" id="expertise">
-        <div className="skills-container">
-            <h1>Expertise</h1>
-            <div className="skills-grid">
-                <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsFirst.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
+        <div className="container" id="expertise">
+            <div className="skills-container">
+                <h1>Expertise</h1>
+                <div className="skills-grid">
+                    <div className="skill">
+                        <FontAwesomeIcon icon={faReact} size="3x" />
+                        <h3>Full Stack Web Development</h3>
+                        <p>I have developed a wide range of web applications using modern frameworks and libraries such as React.js, Vue.js, Spring Boot, and Django, with a strong proficiency in both frontend and backend development.</p>
+                        <div className="flex-chips">
+                            <span className="chip-title">Tech stack:</span>
+                            {labelsFirst.map((label, index) => (
+                                <Chip key={index} className='chip' label={label} />
+                            ))}
+                        </div>
                     </div>
-                </div>
 
-                <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsSecond.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
+                    <div className="skill">
+                        <FontAwesomeIcon icon={faDocker} size="3x" />
+                        <h3>DevOps & Cloud Engineering</h3>
+                        <p>I have hands-on experience deploying projects to production environments and configuring CI/CD pipelines using GitLab. I also manage containerization with Docker and Kubernetes, and automate deployments on cloud platforms such as AWS, Azure, and GCP.</p>
+                        <div className="flex-chips">
+                            <span className="chip-title">Tech stack:</span>
+                            {labelsSecond.map((label, index) => (
+                                <Chip key={index} className='chip' label={label} />
+                            ))}
+                        </div>
                     </div>
-                </div>
 
-                <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsThird.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
+                    <div className="skill">
+                        <FontAwesomeIcon icon={faPython} size="3x" />
+                        <h3>AI & Machine Learning</h3>
+                        <p>I integrate the latest AI and machine learning technologies into projects to enhance data-driven decision-making processes and deliver intelligent solutions.</p>
+                        <div className="flex-chips">
+                            <span className="chip-title">Tech stack:</span>
+                            {labelsThird.map((label, index) => (
+                                <Chip key={index} className='chip' label={label} />
+                            ))}
+                        </div>
+                    </div>
+
+                    <div className="skill">
+                        <FontAwesomeIcon icon={faPython} size="3x" /> {/* Replace with a different relevant icon if available */}
+                        <h3>Salesforce Development</h3>
+                        <p>I have beginner-level experience with Salesforce development using Apex, focusing on creating basic custom solutions to enhance Salesforce functionality.</p>
+                        <div className="flex-chips">
+                            <span className="chip-title">Tech stack:</span>
+                            {labelsFourth.map((label, index) => (
+                                <Chip key={index} className='chip' label={label} />
+                            ))}
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     );
 }
 
