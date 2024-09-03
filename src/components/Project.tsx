@@ -6,7 +6,7 @@ import mock04 from '../assets/images/mock04.png';
 import mock05 from '../assets/images/mock05.png';
 import mock06 from '../assets/images/mock06.png';
 import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
+import mock08 from '../assets/images/IMG_1567.png';
 import mock09 from '../assets/images/GoTravel.png';
 import mock10 from '../assets/images/FitSave.png';
 import '../assets/styles/Project.scss';
@@ -30,22 +30,43 @@ function Project() {
             <li>Utilizes <strong>Java</strong> and <strong>Spring Boot</strong> on the backend to handle data processing.</li>
             <li>Leveraged <strong>JSoup</strong> and <strong>Selenium</strong> to efficiently scrape and parse data.</li>
             <li>Achieved performance improvements of up to 30% through the use of <strong>Tries</strong> for inverted indexing and <strong>Priority Queues</strong> for delivering ranked results.</li>
-            <li>Provides users with a comprehensive overview of available gym memberships, helping them make informed decisions.</li>
         </ul>
     </p>
     <p><strong>Technologies Used:</strong> React Native, Java, Spring Boot, JSoup, Selenium, Tries, Priority Queues</p>
 </div>
-            <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
-            </div>
-            <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
-            </div>
-            <div className="project">
+<div className="project">
+    <a href="https://github.com/rohansethi1999430/Go-Travel-React-Native" target="_blank" rel="noreferrer">
+        <img src={mock09} className="zoom" alt="thumbnail" width="100%" />
+    </a>
+    <a href="https://github.com/rohansethi1999430/Go-Travel-React-Native" target="_blank" rel="noreferrer">
+        <h2>Go Travel France</h2>
+    </a>
+    <p>
+        <ul>
+            <li>Created a mobile app using Software Engineering concepts and received the Best Presenter Award at the University of Windsor’s 10th CS Demo Day.</li>
+            <li>Generated a cross-device mobile app using <strong>React Native</strong> with a <strong>Node.js</strong> and <strong>Express</strong> backend, supported by <strong>MongoDB</strong>.</li>
+            <li>Successfully launched the app on the <strong>Expo</strong> app store, ensuring wide accessibility and user reach.</li>
+        </ul>
+    </p>
+    <p><strong>Technologies Used:</strong> React Native, JavaScript, MongoDB, Node.js, Express, Postman, Expo</p>
+</div>
+<div className="project">
+    <a href="https://github.com/rohansethi1999430/Optimal_Price_Backend" target="_blank" rel="noreferrer">
+        <img src={mock08} className="zoom" alt="thumbnail" width="100%" />
+    </a>
+    <a href="https://github.com/rohansethi1999430/Optimal_Price_Backend" target="_blank" rel="noreferrer">
+        <h2>Optimum Price Analysis for Sellers</h2>
+    </a>
+    <p>
+        <ul>
+            <li>Introduced a web solution for vendors to set optimal prices by analyzing market trends using Amazon's 2.1 million products dataset and built with <strong>Angular</strong> and <strong>Python</strong>.</li>
+            <li>Optimized the pricing model by implementing <strong>Ridge Regression</strong> (90% accuracy), enhancing accuracy over Linear Regression.</li>
+            <li>Built and deployed <strong>REST APIs</strong> for real-time price recommendations, reducing pricing errors by 30% and increasing profitability.</li>
+        </ul>
+    </p>
+    <p><strong>Technologies Used:</strong> Angular, Python, Ridge Regression, REST APIs, Machine Learning</p>
+</div>
+            {/* <div className="project">
                 <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
                 <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
@@ -79,7 +100,7 @@ function Project() {
                 <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
                 <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
-            </div>
+            </div> */}
         </div>
     </div>
     );
