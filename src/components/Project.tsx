@@ -8,7 +8,7 @@ import mock06 from '../assets/images/mock06.png';
 import mock07 from '../assets/images/mock07.png';
 import mock08 from '../assets/images/mock08.png';
 import mock09 from '../assets/images/mock09.png';
-import mock10 from '../assets/images/mock10.png';
+import mock10 from '../assets/images/FitSave.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -17,9 +17,9 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <a href="https://github.com/rohansethi1999430/FitSave-React-Native" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="80%"/></a>
+                <a href="https://github.com/rohansethi1999430/FitSave-React-Native" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
+                <p>Developed the FitSave fitness application to consolidate gym membership prices from three different websites using advanced web crawling techniques. Built with React Native for a seamless cross-platform experience, the app utilizes Java and Spring Boot on the backend to handle data processing. Leveraged JSoup and Selenium to efficiently scrape and parse data, achieving performance improvements of up to 30% through the use of Tries for inverted indexing and Priority Queues for delivering ranked results. The app provides users with a comprehensive overview of available gym memberships, helping them make informed decisions.</p>
             </div>
             <div className="project">
                 <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
