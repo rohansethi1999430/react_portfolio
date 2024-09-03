@@ -7,7 +7,7 @@ import mock05 from '../assets/images/mock05.png';
 import mock06 from '../assets/images/mock06.png';
 import mock07 from '../assets/images/mock07.png';
 import mock08 from '../assets/images/mock08.png';
-import mock09 from '../assets/images/mock09.png';
+import mock09 from '../assets/images/GoTravel.png';
 import mock10 from '../assets/images/FitSave.png';
 import '../assets/styles/Project.scss';
 
@@ -16,11 +16,25 @@ function Project() {
     <div className="projects-container" id="projects">
         <h1>Personal Projects</h1>
         <div className="projects-grid">
-            <div className="project">
-                <a href="https://github.com/rohansethi1999430/FitSave-React-Native" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="80%"/></a>
-                <a href="https://github.com/rohansethi1999430/FitSave-React-Native" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed the FitSave fitness application to consolidate gym membership prices from three different websites using advanced web crawling techniques. Built with React Native for a seamless cross-platform experience, the app utilizes Java and Spring Boot on the backend to handle data processing. Leveraged JSoup and Selenium to efficiently scrape and parse data, achieving performance improvements of up to 30% through the use of Tries for inverted indexing and Priority Queues for delivering ranked results. The app provides users with a comprehensive overview of available gym memberships, helping them make informed decisions.</p>
-            </div>
+        <div className="project">
+    <a href="https://github.com/rohansethi1999430/FitSave-React-Native" target="_blank" rel="noreferrer">
+        <img src={mock10} className="zoom" alt="thumbnail" width="100%" />
+    </a>
+    <a href="https://github.com/rohansethi1999430/FitSave-React-Native" target="_blank" rel="noreferrer">
+        <h2>FitSave Fitness Mobile App</h2>
+    </a>
+    <p>
+        <ul>
+            <li>Developed the FitSave fitness application to consolidate gym membership prices from three different websites using advanced web crawling techniques.</li>
+            <li>Built with <strong>React Native</strong> for a seamless cross-platform experience.</li>
+            <li>Utilizes <strong>Java</strong> and <strong>Spring Boot</strong> on the backend to handle data processing.</li>
+            <li>Leveraged <strong>JSoup</strong> and <strong>Selenium</strong> to efficiently scrape and parse data.</li>
+            <li>Achieved performance improvements of up to 30% through the use of <strong>Tries</strong> for inverted indexing and <strong>Priority Queues</strong> for delivering ranked results.</li>
+            <li>Provides users with a comprehensive overview of available gym memberships, helping them make informed decisions.</li>
+        </ul>
+    </p>
+    <p><strong>Technologies Used:</strong> React Native, Java, Spring Boot, JSoup, Selenium, Tries, Priority Queues</p>
+</div>
             <div className="project">
                 <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
