@@ -46,3 +46,9 @@ form {
   width: 100% !important;
   margin-bottom: 15px !important;
 }
+
+/* Update input text color to black */
+.MuiInputBase-input {
+  color: black; /* Set text color to black */
+  z-index: 1;
+}
