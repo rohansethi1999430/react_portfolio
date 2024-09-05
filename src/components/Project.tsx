@@ -5,7 +5,7 @@ import mock03 from '../assets/images/mock03.png';
 import mock04 from '../assets/images/mock04.png';
 import mock05 from '../assets/images/mock05.png';
 import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
+import mock07 from '../assets/images/IMG_5082.png';
 import mock08 from '../assets/images/IMG_1567.png';
 import mock09 from '../assets/images/GoTravel.png';
 import mock10 from '../assets/images/FitSave.png';
@@ -66,6 +66,11 @@ function Project() {
     </p>
     <p><strong>Technologies Used:</strong> Angular, Python, Ridge Regression, REST APIs, Machine Learning</p>
 </div>
+<div className="project">
+<a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
+<a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Automatic Short Answer Grading</h2></a>
+<p>Developed a grading system using the Universal Sentence Encoder for automated evaluation of short answers. Presented at the ICL2022 conference in Vienna, showcasing the potential for educational enhancements through AI.</p>
+    </div>
             {/* <div className="project">
                 <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
