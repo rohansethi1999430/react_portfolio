@@ -25,7 +25,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Master of Applied Computing</h3>
             <h4 className="vertical-timeline-element-subtitle">University of Windsor, Windsor, ON</h4>
             <p>
-              Specialization in Computer Science with a GPA of 91/100. Involved in advanced coursework and projects focused on software engineering, machine learning, and data science.
+              Specialization in Computer Science with a GPA of 85.5/100. Involved in advanced coursework and projects focused on software engineering, machine learning, and data science.
             </p>
           </VerticalTimelineElement>
 
